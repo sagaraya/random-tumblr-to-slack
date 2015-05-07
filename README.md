@@ -22,5 +22,11 @@ npm install
 ./node_modules/.bin/coffee randomTumblrToSlack.coffee
 ```
 
+or run background
+
+```
+nohup ./node_modules/.bin/coffee randomTumblrToSlack.coffee &
+```
+
 # メモ
 node-slack 0.0.5 を使おうとしたが、うまくいかなかった（バグ？）ので、requestで直接POSTすることにした。

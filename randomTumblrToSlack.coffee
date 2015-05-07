@@ -30,9 +30,9 @@ try
   CronJob = require('cron').CronJob
   job = new CronJob({
     # 秒 分 時 日 月 曜日
-    #cronTime: '00 00 11,15 */02 * *'
-    # cronTime: '* 00-59/1 * * * *' # test -> １秒毎に実行される. 秒が*だとすべてにあてはまる
-    cronTime: '*/5 00-59/1 * * * *' # test -> ５秒毎に実行される
+    cronTime: '00 00 11,15 */02 * *'
+    #cronTime: '* 00-59/1 * * * *' # test -> １秒毎に実行される. 秒が*だとすべてにあてはまる
+    #cronTime: '*/5 00-59/1 * * * *' # test -> ５秒毎に実行される
     onTick: onTick
     start: true
     timeZone: 'Asia/Tokyo'
