@@ -7,8 +7,8 @@ get slcak incoming webhook url.
 get tumblr oauth consumer key.
 
 ```
-export SLACK_HOOK_URL=YOUR_SLACK_HOOK_URL
-export HUBOT_TUMBLR_API_KEY=YOUR_COUNSUMER_KEY
+echo 'export SLACK_HOOK_URL=YOUR_SLACK_HOOK_URL' >> ~/.bash_profile
+echo 'export HUBOT_TUMBLR_API_KEY=YOUR_COUNSUMER_KEY' >> ~/.bash_profile
 ```
 
 ## install dependencies
