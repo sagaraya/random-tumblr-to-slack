@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "coffee-script": "^1.9.2",
+    "cron": "^1.0.9",
+    "request": "^2.55.0",
+    "tumblrbot": "^0.1.0"
+  }
+}
